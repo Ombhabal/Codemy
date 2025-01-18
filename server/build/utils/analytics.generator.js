@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generateLast12MonthsDate = void 0;
+exports.generateLast12MonthsDate = generateLast12MonthsDate;
 async function generateLast12MonthsDate(model) {
     const last12Months = [];
     const currentDate = new Date();
@@ -22,4 +22,3 @@ async function generateLast12MonthsDate(model) {
     }
     return { last12Months };
 }
-exports.generateLast12MonthsDate = generateLast12MonthsDate;
